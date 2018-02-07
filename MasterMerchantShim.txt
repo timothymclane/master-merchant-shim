@@ -1,0 +1,8 @@
+## Title: ATT to MM Shim
+## APIVersion: 100021
+## Description: A shim to allow ArkadiusTradeTools to be used with addons that support MasterMerchant
+## Authors: Aldanga
+## DependsOn: ArkadiusTradeTools ArkadiusTradeToolsSales
+## Version: 0.0.1
+
+MasterMerchantShim.lua
