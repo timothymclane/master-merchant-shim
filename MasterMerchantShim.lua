@@ -10,7 +10,7 @@ local function OnAddOnLoaded(event, addonName)
 end
 
 function MMS:Initialize()
-    EVENT_MANAGER:UnregisterForEvent(ADDON_NAME, EVENT_ADD_ON_LOADED)
+    EVENT_MANAGER:UnregisterForEvent(MMS.Name, EVENT_ADD_ON_LOADED)
 end
 
 -- We're actually gonna just use the item link instead of making an index because ATT uses it
@@ -33,7 +33,7 @@ function MasterMerchant:addStatsAndGraph(text, link, someBool)
 end
 
 EVENT_MANAGER:RegisterForEvent(
-    ADDON_NAME,
+    MMS.Name,
     EVENT_ADD_ON_LOADED,
     function(...)
         OnAddOnLoaded(...)
