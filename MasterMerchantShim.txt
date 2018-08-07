@@ -3,6 +3,6 @@
 ## Description: A shim to allow ArkadiusTradeTools to be used with addons that support MasterMerchant
 ## Authors: Aldanga
 ## DependsOn: ArkadiusTradeTools ArkadiusTradeToolsSales
-## Version: 0.0.1
+## Version: 0.0.2
 
 MasterMerchantShim.lua
