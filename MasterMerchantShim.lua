@@ -32,6 +32,10 @@ function MasterMerchant:addStatsAndGraph(text, link, someBool)
     -- This is so CraftStore doesn't explode.
 end
 
+function MasterMerchant:ActiveSettings()
+	return {displayGuildInfo = false}
+end
+
 EVENT_MANAGER:RegisterForEvent(
     MMS.Name,
     EVENT_ADD_ON_LOADED,
